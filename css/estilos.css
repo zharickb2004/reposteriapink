@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+   background:url(../images/fondo.jpg);
+   background-size:cover;
+   
+}
+header{
+    background:rgb(254, 220, 244);
+    display: inline-block;
+    width: 100%;
+    text-align:justify;
+    padding: 15px;
+    position: sticky;
+    top:0px;
+    
+}
+
+.link{
+    background:rgb(255, 255, 255);
+    color: #000000;
+    border: 2px solid #e83591;
+    text-decoration: none;
+    padding: 10px;
+    border-radius:5px;
+    transition: all .2s ease-in-out;
+}
+.link:hover{
+    color:white;
+    background: #e83591;
+
+}
+h1{
+    background-color: #e83591;
+    height:3rem;
+    text-align:center;
+    color:white;
+    
+}
+h2{
+    margin:20px 0 0 0 ;
+    background: white;
+    width:82%;
+    display:block;
+    text-align:center;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+section{
+background:pink;
+    color: #000000;
+    border: 2px solid #fa0ace;
+    background: rgba(245, 193, 230, 0.447);
+    padding: 20px;
+    margin: 20px;
+    border-radius:10px;
+  
+}
+.princ{
+
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    object-fit:cover;
+    margin-top:4rem;
+}
+.sele{
+    display: inline-flex;
+    width: 100%;
+
+}
+.principal{
+    width: 100%;
+}
+
+
+.imagenes{
+    
+    margin-top: 140px;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+.img-caja{
+    border:2px solid #000000;
+    margin: 0 auto;
+    border-radius:10px;
+    width:300px;
+    padding: 5px;
+   text-align: center;
+    
+}
+.img-caja img{
+    width: 100%;
+    height: 15rem;
+
+}
+.info-box{
+    text-align: center;
+    display: inline-flex;
+
+
+}
+.info{
+    border:2px solid #000000;
+    margin: 20px;
+    border-radius:10px;
+    width:400px;
+    height:250px;
+    padding: 5px;
+    grid-template-columns: repeat(3,1fr);
+
+   background:rgba(254, 254, 254, 0.346);
+
+    
+}
+footer{
+    background:#e83591;
+    width: 100%;
+    height: 5rem;
+    text-align:center;
+    padding: 20px;
+
+}
+
+.k{
+
+    align-items: center;
+    margin: 20% auto;
+}
